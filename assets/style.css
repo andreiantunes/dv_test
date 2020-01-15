@@ -1,0 +1,61 @@
+body {
+  background-color: #f2f2f2; /*overall background*/
+  margin: 5%;
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: rgb(0, 114, 178); /*change colors of header*/
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  background-color: #f2f2f2; /*changes color of background title*/
+}
+
+h1 {
+  font-size: 4.5rem;
+  line-height: 1.2;
+  letter-spacing: -0.1rem;
+  margin-bottom: 2rem;
+}
+
+
+.pretty {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 10px;
+  padding: 15px;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+.row {
+  display: flex;
+}
+
+.column1 {
+  flex:70%;
+}
+
+.column2 {
+  flex: 30%;
+}
+
+.column3 {
+  flex: 40%;
+}
+
+.column4 {
+  flex: 60%;
+}
+
+
+.mini {
+  flex: 15%;
+  margin: 5%;
+}
+html {
+  font-size: 62.5%;
+}
