@@ -29,7 +29,7 @@ continent_options = [dict(label=continent, value=continent) for continent in df[
 ##################################################APP###############################################################
 
 app = dash.Dash(__name__)
-
+server=app.server
 app.layout = html.Div([
 
     html.Div([
